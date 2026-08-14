@@ -1,6 +1,6 @@
 # SignBridgeAI
 Build step by step
-## 1. Hand detection [13-08-2026]
+## 1. Hand detection
 
    webcam -> Detect hand -> Draw 21 landmarks
   
@@ -20,7 +20,7 @@ Build step by step
               
    6.[scikit-learn Train/test splits, accuracy metrics, preprocessing]
               
-   7.[maatplotlib Visualize training loss, accuracy, or landmark plots]
+   7.[matplotlib Visualize training loss, accuracy, or landmark plots]
+#### STEPS
+Step 1: Initialize MediaPipe --> Step 2: Open webcam --> Step 3: Flip for mirror + convert BGR to RGB --> Step 4: Process frame --> Step 5: Draw landmarks if detected --> Step6: Show output --> Step 7: Cleanup
 
-
- 
