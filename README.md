@@ -1,55 +1,34 @@
 # SignBridgeAI
-Build step by step
+## Build step by step
+```
 
 SignBridgeAI/
-
 │
-
 ├── dataset/
-
 │
-
 ├── training/
-
 │   ├── collect_data.py
-
 │   ├── extract_landmarks.py
-
 │   └── train_model.py
-
 │
-
 ├── realtime/
-
 │   ├── hand_detection.py
-
 │   └── predict.py
-
 │
-
 ├── backend/
-
 │   └── app.py
-
 │
-
 ├── frontend/
-
 │
-
 ├── models/
-
 │
-
 ├── docs/
-
 │
-
 ├── .gitignore
-
 │
-
 └── README.md
+```
+
 ## 1. Hand detection
 
    webcam -> Detect hand -> Draw 21 landmarks
