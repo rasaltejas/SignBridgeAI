@@ -1,4 +1,6 @@
 # SignBridgeAI
+Existing ISL systems have demonstrated recognition and translation capabilities, but real-time, signer-independent communication remains challenging. We therefore designed Sign Bridge AI around pose-based temporal modeling, with an online inference pipeline. Instead of evaluating only random train/test splits, we evaluate on unseen signers and measure latency in addition to recognition accuracy.
+
 ## Build step by step
 ```
 
